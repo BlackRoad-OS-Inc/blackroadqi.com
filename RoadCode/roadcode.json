@@ -1,0 +1,25 @@
+{
+  "name": "blackroadqi.com",
+  "org": "BlackRoad-OS-Inc",
+  "category": "quantum",
+  "title": "BlackRoad QI",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/blackroadqi.com",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/blackroadqi.com",
+    "github": "https://github.com/BlackRoad-OS-Inc/blackroadqi.com"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
