@@ -1,5 +1,13 @@
 # blackroadqi.com
 
+> BlackRoad OS, Inc. — blackroadqi.com domain repo. Proprietary.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# blackroadqi.com
+
 > Amundson Framework. G(n)=n^(n+1)/(n+1)^n. QI research.
 
 ## About
